@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import img from '../../public/profile.png';
+import DarkMode from './DarkMode.component';
 
 export default function Header() {
   return (
@@ -13,6 +14,7 @@ export default function Header() {
       />
       <h4 className="text-lg font-bold mt-5">@william.nod</h4>
       <h1 className="text-2xl font-bold mt-1.5 mb-9">William Kurniawan</h1>
+      {/* <DarkMode/> */}
     </div>
   )
 }
