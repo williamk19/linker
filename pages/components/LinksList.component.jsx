@@ -3,7 +3,7 @@ import Link from './Link.component'
 
 export default function LinkList() {
   return (
-    <div>
+    <div className='flex flex-col items-center'>
       <Link/>
       <Link/>
       <Link/>
