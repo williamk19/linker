@@ -9,10 +9,10 @@ import gmail from '../../public/gmail.png'
 export default function LinkList() {
   return (
     <div className='flex flex-col items-center'>
-      <Link icon={www} name="My Website"/>
-      <Link icon={gmail} name="Email"/>
-      <Link icon={linkedin} name="LinkedIn"/>
-      <Link icon={github} name="Github"/>
+      <Link link="https://william-nod.com" icon={www} name="My Website"/>
+      <Link link="mailto:williamkurniawan1144@gmail.com" icon={gmail} name="Email"/>
+      <Link link="https://www.linkedin.com/in/william-nod/" icon={linkedin} name="LinkedIn"/>
+      <Link link="https://github.com/william-nod" icon={github} name="Github"/>
     </div>
   )
 }
