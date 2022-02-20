@@ -6,7 +6,7 @@ import Container from './components/Container.component'
 
 export default function Home() {
   return (
-    <div>
+    <div className=''>
       <Container/>
     </div>
   )

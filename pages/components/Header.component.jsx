@@ -4,7 +4,7 @@ import DarkMode from './DarkMode.component';
 
 export default function Header() {
   return (
-    <div className="flex flex-col items-center mt-16">
+    <div className="flex flex-col items-center">
       <Image
         className="rounded-full"
         src={img}
@@ -12,9 +12,11 @@ export default function Header() {
         width={100}
         height={100}
       />
-      <h4 className="text-lg font-bold mt-5">@william.nod</h4>
-      <h1 className="text-2xl font-bold mt-1.5 mb-9">William Kurniawan</h1>
+      <h4 className="text-lg font-bold mt-5 text-white">@william.nod</h4>
+      <h1 className="text-2xl font-bold mt-1.5 mb-9 text-white">
+        William Kurniawan
+      </h1>
       {/* <DarkMode/> */}
     </div>
-  )
+  );
 }
