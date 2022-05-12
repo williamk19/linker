@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img from '../../public/profile.png';
+import img from '../../public/profile2.svg';
 import DarkMode from './DarkMode.component';
 
 export default function Header({darkMode}) {
@@ -18,7 +18,7 @@ export default function Header({darkMode}) {
           darkMode ? 'text-white' : 'text-black'
         }`}
       >
-        @william.nod
+        @williamk19
       </h4>
       <h1
         className={`text-2xl font-bold mt-1.5 mb-9 ${
@@ -27,7 +27,6 @@ export default function Header({darkMode}) {
       >
         William Kurniawan
       </h1>
-      {/* <DarkMode/> */}
     </div>
   );
 }
