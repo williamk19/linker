@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Links</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Links for all my other social media" />
+        <meta name="description" content="Links for all williamk19 other social media" />
         <link rel="shortcut icon" href={favicon.src} />
       </Head>
       <Container />

@@ -12,10 +12,14 @@ export default function Toggle({ darkMode, setDarkMode }) {
             <RiMoonClearFill
               fill='white'
               stroke='white'
-              className='scale-125'
+              className='scale-125 hover:-translate-y-1 active:translate-y-1 transition duration-500 ease-in-out'
             />
           ) : (
-            <RiSunFill fill='black' stroke='white' className='scale-125' />
+            <RiSunFill
+              fill='black'
+              stroke='white'
+              className='scale-125 hover:-translate-y-1 active:translate-y-1 transition duration-500 ease-in-out'
+            />
           )}
         </button>
       </div>
