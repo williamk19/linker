@@ -2,7 +2,7 @@ import { RiMoonClearFill, RiSunFill } from "react-icons/ri";
 
 export default function Toggle({ darkMode, setDarkMode }) {
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center flex-shrink-0">
             <div className="w-80 flex flex-col items-end">
                 <button
                     onClick={() =>

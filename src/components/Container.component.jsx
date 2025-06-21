@@ -8,19 +8,17 @@ export default function Container() {
     const [darkMode, setDarkMode] = useState(true);
     return (
         <div
-            className={`h-screen ${
-                darkMode ? "bg-neutral-900" : "bg-slate-100"
-            } transition-all duration-500 ease-in-out`}
+            className={`flex h-[100svh] flex-col 
+    ${darkMode ? "bg-neutral-900" : "bg-slate-100"}
+    transition-colors duration-500 ease-in-out`}
         >
-			<div className="h-full w-full overflow-y-auto">
-				<Toggle
-					darkMode={darkMode}
-					setDarkMode={setDarkMode}
-				/>
-				<Header darkMode={darkMode} />
-				<LinkList />
-				<Footer darkMode={darkMode} />
-			</div>
+            <Toggle
+                darkMode={darkMode}
+                setDarkMode={setDarkMode}
+            />
+            <Header darkMode={darkMode} />
+            <LinkList />
+            <Footer darkMode={darkMode} />
         </div>
     );
 }
